@@ -201,7 +201,7 @@ li:hover{
 }
 
 .nrol-img{
-    background-image: url(https://sxcontent9668.azureedge.us/cms-assets/assets/NROL_167_SW_Hill_Horiz_0912_Desktop_86ce7a8ee4.jpg);
+    background-image: url(assets/nrol-167.png);
     display: inline-block;
     position: relative;
     width: 100%;
@@ -251,4 +251,66 @@ li:hover{
 .nrol .btn:hover{
     color: black;
     background-color: white;
+}
+
+.flight-test-vdo{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flight-test{
+    display: block;
+    position: relative;
+    padding-top: 620px;
+    margin-left: 275px;
+    padding-bottom: 171px;
+    width: fit-content;
+}
+
+.flight-test .frst-line{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.flight-test .snd-line{
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.flight-test .btn{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: bold;
+    width: 170px;
+    margin-top: 32px;
+}
+
+.flight-test .btn:hover{
+    color: black;
+    background-color: white;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
