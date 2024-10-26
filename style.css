@@ -410,3 +410,23 @@ video {
     color: black;
     background-color: white;
 }
+
+.footer-bar {
+    background-color: black;
+    width: 100%;
+    height: 55px;
+}
+
+.footer-bar footer{
+    color: white;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 750px;
+}
+
+footer p{
+    display: inline;
+    margin-left: 44px;
+    font-weight: bold;
+    cursor: pointer;
+}
