@@ -15,7 +15,6 @@ ul{
     list-style-type: none;
 }
 
-/* Logo */
 .logo {
     width: 210px;
     padding-left: 302px;
@@ -49,7 +48,7 @@ li:hover{
 }
 
 .right-side{
-    padding-left: 1762px;
+    padding-left: 1750px;
     padding-top: 0px;
 }
 
@@ -96,6 +95,25 @@ li:hover{
 
 .crew-8-img{
     background-image: url(assets/crew-8.png);
+}
+
+.launch-img{
+    background-image: url(assets/starlink\ mission.png);
+}
+
+.nrol-img{
+    background-image: url(assets/nrol-167.png);
+}
+
+.spaceflight-img{
+    background-image: url(assets/advancing-human.png);
+}
+
+.multiplanetary-img{
+    background-image: url(assets/make-life-multiplanetary.png);
+}
+
+.img-main{
     display: inline-block;
     position: relative;
     width: 100%;
@@ -108,25 +126,25 @@ li:hover{
     background-size: cover;
 }
 
-.crew-8{
+.section{
     display: block;
-    padding-top: 500px;
+    padding-top: 550px;
     margin-left: 302px;
     padding-bottom: 171px;
     width: fit-content;
 }
 
-.crew-8 .frst-line{
+.frst-line{
     font-size: 16px;
     line-height: 26px;
 }
 
-.crew-8 .snd-line{
+.snd-line{
     font-size: 48px;
     line-height: 48px;
 }
 
-.crew-8 .btn{
+.btn{
     background-color: transparent;
     background-repeat: no-repeat;
     border: 2px solid white;
@@ -142,168 +160,18 @@ li:hover{
     margin-top: 32px;
 }
 
-.crew-8 .btn:hover{
+.btn:hover{
     color: black;
     background-color: white;
 }
 
-.launch-img{
-    background-image: url(assets/starlink\ mission.png);
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.launch{
-    display: block;
-    padding-top: 620px;
-    margin-left: 275px;
-    padding-bottom: 171px;
-    width: fit-content;
-}
-
-.launch .frst-line{
-    font-size: 16px;
-    line-height: 26px;
-}
-
-.launch .snd-line{
-    font-size: 48px;
-    line-height: 48px;
-}
-
-.launch .btn{
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: 2px solid white;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    color: white;
-    text-align: center;
-    font-size: 14px;
-    line-height: 50px;
-    font-weight: bold;
-    width: 170px;
-    margin-top: 32px;
-}
-
-.launch .btn:hover{
-    color: black;
-    background-color: white;
-}
-
-.nrol-img{
-    background-image: url(assets/nrol-167.png);
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.nrol{
-    display: block;
-    padding-top: 620px;
-    margin-left: 275px;
-    padding-bottom: 171px;
-    width: fit-content;
-}
-
-.nrol .frst-line{
-    font-size: 16px;
-    line-height: 26px;
-}
-
-.nrol .snd-line{
-    font-size: 48px;
-    line-height: 48px;
-}
-
-.nrol .btn{
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: 2px solid white;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    color: white;
-    text-align: center;
-    font-size: 14px;
-    line-height: 50px;
-    font-weight: bold;
-    width: 170px;
-    margin-top: 32px;
-}
-
-.nrol .btn:hover{
-    color: black;
-    background-color: white;
-}
-
-.flight-test-vdo{
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.flight-test{
+.section-vdo{
     display: block;
     position: relative;
     padding-top: 620px;
     margin-left: 275px;
     padding-bottom: 171px;
     width: fit-content;
-}
-
-.flight-test .frst-line{
-    font-size: 16px;
-    line-height: 26px;
-}
-
-.flight-test .snd-line{
-    font-size: 48px;
-    line-height: 48px;
-}
-
-.flight-test .btn{
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: 2px solid white;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    color: white;
-    text-align: center;
-    font-size: 14px;
-    line-height: 50px;
-    font-weight: bold;
-    width: 170px;
-    margin-top: 32px;
-}
-
-.flight-test .btn:hover{
-    color: black;
-    background-color: white;
 }
 
 video {
@@ -314,103 +182,6 @@ video {
     height: 100%;
     object-fit: cover;
 }
-
-.spaceflight-img{
-    background-image: url(assets/advancing-human.png);
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.spaceflight{
-    display: block;
-    padding-top: 620px;
-    margin-left: 275px;
-    padding-bottom: 171px;
-    width: fit-content;
-}
-
-.spaceflight .snd-line{
-    font-size: 48px;
-    line-height: 48px;
-}
-
-.spaceflight .btn{
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: 2px solid white;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    color: white;
-    text-align: center;
-    font-size: 14px;
-    line-height: 50px;
-    font-weight: bold;
-    width: 170px;
-    margin-top: 32px;
-}
-
-.spaceflight .btn:hover{
-    color: black;
-    background-color: white;
-}
-
-.multiplanetary-img{
-    background-image: url(assets/make-life-multiplanetary.png);
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: black;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.multiplanetary{
-    display: block;
-    padding-top: 620px;
-    margin-left: 275px;
-    padding-bottom: 171px;
-    width: fit-content;
-}
-
-.multiplanetary .snd-line{
-    font-size: 48px;
-    line-height: 48px;
-}
-
-.multiplanetary .btn{
-    background-color: transparent;
-    background-repeat: no-repeat;
-    border: 2px solid white;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    color: white;
-    text-align: center;
-    font-size: 14px;
-    line-height: 50px;
-    font-weight: bold;
-    width: 170px;
-    margin-top: 32px;
-}
-
-.multiplanetary .btn:hover{
-    color: black;
-    background-color: white;
-}
-
 .footer-bar {
     background-color: black;
     width: 100%;

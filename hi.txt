@@ -1,0 +1,283 @@
+.launch-img{
+    background-image: url(assets/starlink\ mission.png);
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.launch{
+    display: block;
+    padding-top: 620px;
+    margin-left: 275px;
+    padding-bottom: 171px;
+    width: fit-content;
+}
+
+.launch .frst-line{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.launch .snd-line{
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.launch .btn{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: bold;
+    width: 170px;
+    margin-top: 32px;
+}
+
+.launch .btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.nrol-img{
+    background-image: url(assets/nrol-167.png);
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nrol{
+    display: block;
+    padding-top: 620px;
+    margin-left: 275px;
+    padding-bottom: 171px;
+    width: fit-content;
+}
+
+.nrol .frst-line{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.nrol .snd-line{
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.nrol .btn{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: bold;
+    width: 170px;
+    margin-top: 32px;
+}
+
+.nrol .btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.flight-test-vdo{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flight-test{
+    display: block;
+    position: relative;
+    padding-top: 620px;
+    margin-left: 275px;
+    padding-bottom: 171px;
+    width: fit-content;
+}
+
+.flight-test .frst-line{
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.flight-test .snd-line{
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.flight-test .btn{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: bold;
+    width: 170px;
+    margin-top: 32px;
+}
+
+.flight-test .btn:hover{
+    color: black;
+    background-color: white;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.spaceflight-img{
+    background-image: url(assets/advancing-human.png);
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.spaceflight{
+    display: block;
+    padding-top: 620px;
+    margin-left: 275px;
+    padding-bottom: 171px;
+    width: fit-content;
+}
+
+.spaceflight .snd-line{
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.spaceflight .btn{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: bold;
+    width: 170px;
+    margin-top: 32px;
+}
+
+.spaceflight .btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.multiplanetary-img{
+    background-image: url(assets/make-life-multiplanetary.png);
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.multiplanetary{
+    display: block;
+    padding-top: 620px;
+    margin-left: 275px;
+    padding-bottom: 171px;
+    width: fit-content;
+}
+
+.multiplanetary .snd-line{
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.multiplanetary .btn{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 2px solid white;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: bold;
+    width: 170px;
+    margin-top: 32px;
+}
+
+.multiplanetary .btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.footer-bar {
+    background-color: black;
+    width: 100%;
+    height: 55px;
+}
+
+.footer-bar footer{
+    color: white;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-left: 750px;
+}
+
+footer p{
+    display: inline;
+    margin-left: 44px;
+    font-weight: bold;
+    cursor: pointer;
+}
